@@ -9,7 +9,7 @@ homebrew_packages:
 # - bazaar
 # - cloc
 # - coreutils
-- cowsay
+# - cowsay
 # - enchant
 # - exiftool
 # - fd
@@ -19,21 +19,21 @@ homebrew_packages:
 # - fswatch
 # - gdal
 # - gdbm
-- glance
-- git
+# - glance
+# - git
 # - github/gh/gh
 # - goaccess
 # - gpg
 # - graphicsmagick
 # - heroku/brew/heroku
 # - hub
-- hugo
+# - hugo
 # - hyperfine
 # - inetutils
 # - jhead
 # - jpeg
 # - jpegoptim
-- jq
+# - jq
 # - lesspipe
 # - libevent
 # - libmemcached
@@ -45,9 +45,9 @@ homebrew_packages:
 # - ncdu
 # - nginx
 # - nvm
-- openssl
+# - openssl
 # - ossp-uuid
-- pandoc
+# - pandoc
 # - parallel
 # - percona-toolkit
 # - pkg-config
@@ -68,20 +68,20 @@ homebrew_packages:
 # - shellcheck
 # - sqlite
 # - swig
-- tmux
+# - tmux
 # - tree
 # - watch
 # - wget
 # - xz
-- zlib
-- zsh-completions
+# - zlib
+# - zsh-completions
 
 homebrew_cask_packages:
 # - '0xed'
 # - alfred
 # - anki
 - brooklyn
-- calibre
+# - calibre
 - coconutbattery
 # - discord
 # - disk-inventory-x
@@ -91,14 +91,14 @@ homebrew_cask_packages:
 # - font-roboto-mono
 # - font-ubuntumono-nerd-font
 # - franz
-# - google-chrome
+# - 'google-chrome'
 - iterm2
 - iglance
 - iina
 # - java
 # - karabiner-elements
 # - keyboard-maestro
-- mactex
+# - mactex
 # - mountain-duck
 # - mplayerx
 # - paintbrush
@@ -110,55 +110,55 @@ homebrew_cask_packages:
 # - skim
 # - skype
 # - soundflower
-- steam
-- sublime-text
+# - steam
+# - sublime-text
 # - texmaker
-- transmission
+# - transmission
 # - unshaky
-- v2rayu
+# - v2rayu
 # - vagrant
-- visual-studio-code
+# - visual-studio-code
 # - virtualbox
-- vlc
+# - vlc
 # - xquartz
-- wechat
+# - wechat
 
 pyenv_python_versions:
 # In precedence order
 # - 3.9.0
-- 3.8.5
-# - 3.7.8
+# - 3.8.5
+- 3.7.8
 # - 3.6.11
-- 3.5.9
+# - 3.5.9
 # - 3.4.10
-- 2.7.18
+# - 2.7.18
 # - 3.10-dev
 # - pypy3.6-7.1.1
 # - pypy2.7-7.1.1
 
 pip_packages:
-# - awscli
-# - boto
-# - boto3
+- awscli
+- boto
+- boto3
 # - csvkit
 # - ec2-ssh
 # - flake8
 # - httpie
 # - ipdb
-- ipython
+# - ipython
 # - lifelogger
 # - pipenv
 # - pygments
 # - pythonpy
-- python-language-server
+# - python-language-server
 # - pyyaml
-- requests
+# - requests
 # - s3cmd
 # - six
 # - tox
 # - twine
-- youtube-dl
-- wheel
+# - youtube-dl
+# - wheel
 
 # gem_packages:
 # - jekyll
